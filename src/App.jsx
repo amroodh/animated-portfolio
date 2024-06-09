@@ -2,6 +2,8 @@ import "./app.scss"
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/navbar/hero/Hero";
 import Parallax from "./components/parallax/parallax";
+import contact from "./components/contact/contact";
+
 const App = () => {
   return <div>
     <section id="Homepage">
@@ -14,7 +16,7 @@ const App = () => {
     <section>Portfolio1</section>
     <section>Portfolio2</section>
     <section>Portfolio3</section>
-    <section id="Contact">Contact</section>
+    <section id="contact"><contact /></section>
     <section id="About">About</section>
   </div>;
 };
