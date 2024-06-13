@@ -1,10 +1,6 @@
-import "./services.scss"
+import "./services.scss";
 const Services = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div className="Services">Services</div>;
+};
 
-export default Services
+export default Services;
