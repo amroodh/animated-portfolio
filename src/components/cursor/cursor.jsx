@@ -22,3 +22,5 @@ const Cursor = () => {
     ></motion.div>
   );
 };
+
+export default Cursor;
