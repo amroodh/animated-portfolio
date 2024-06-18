@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
@@ -6,41 +8,37 @@
 
   .wrapper {
     max-width: 1366px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
     height: 100%;
+    margin: auto;
 
     .textContainer {
-      width: 55%;
+      width: 50%;
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 40px;
 
-      //// @include mobile {
-      //height: 50%;
-      //width: 100%;
-      //gap: 20px;
-      //align-items: center;
-      //text-align: center;
-      ////}
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
 
       h2 {
-        font-size: 25px;
+        font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
       }
 
       h1 {
-        font-size: 70px;
+        font-size: 88px;
 
-        //@include mobile {
-        //  font-size: 36px;
-        //}
+        @include mobile {
+          font-size: 36px;
+        }
       }
 
       .buttons {
@@ -57,8 +55,7 @@
       }
 
       img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
       }
     }
   }
@@ -67,14 +64,14 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 0;
 
-    //@include mobile {
-    //  height: 50%;
-    //  width: 100%;
-    //  top: unset;
-    //  bottom: 0;
-    //}
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
 
     img {
       width: 100%;

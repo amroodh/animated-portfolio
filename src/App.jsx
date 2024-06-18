@@ -28,7 +28,6 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      <section id="About">About</section>
     </div>
   );
 };
