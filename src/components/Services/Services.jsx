@@ -37,7 +37,7 @@ const Services = () => {
       <motion.div className="textContainer" variants={variants}>
         <p>
           I focus on building products
-          <br /> according to problems statements
+          <br /> of unique ideas.
         </p>
         <hr />
       </motion.div>
@@ -50,8 +50,8 @@ const Services = () => {
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business.
+            <motion.b whileHover={{ color: "orange" }}>Simple</motion.b>{" "}
+            Solutions.
           </h1>
           <button>WHAT I DO?</button>
         </div>
