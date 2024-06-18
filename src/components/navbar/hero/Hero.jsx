@@ -74,7 +74,7 @@ const Hero = () => {
         Undergraduate
       </motion.div>
       <div className="imageContainer">
-        <img src="/profile4.png" alt="" />
+        <img src="/profile6.png" alt="" />
       </div>
     </div>
   );
